@@ -1,0 +1,102 @@
+
+body{
+    margin: 0%;
+    
+}
+.heading img{
+  height: 80px;
+}
+.heading {
+  
+
+    background-color: rgb(255, 255, 255);
+    
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    border: 0;
+    
+
+}
+h1{
+    margin: 0%;
+    height: 80px;
+    font-size:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.task_title{
+  font-family: "Product Sans",Arial,sans-serif;
+    color: grey;
+    font-size: xx-large;
+    margin-left: 25%;
+    margin-right: 2%;
+
+}
+.input_title{
+    width:40%;
+    height: 40px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    border: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: white;
+}
+.front{
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+}
+.add_title {
+    list-style-type: none; /* Remove bullet points */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    
+  }
+  
+  .add_title li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative; /* Add relative positioning */
+    box-shadow: 0 3px 5px rgba(97, 94, 94, 0.611);
+    border: 0;
+    border-radius: 10px;
+    word-wrap: break-word;
+    max-width: 400px;
+  }
+  
+  .add_title h2 {
+    margin-bottom: 5px;
+    background-color: lightgray; /* Add your desired background color here */
+    padding: 5px;
+    border-radius: 5px;
+    color: white; /* Add a contrasting text color for better readability */
+  }
+  
+  .add_title textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    border: 0;
+    margin-bottom: 10px;
+  }
+  
+  .add_title button {
+    padding: 5px 10px;
+    background-color: #048aff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+  }
+  #popup {
+    
+  }
+  
+  
+  
