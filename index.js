@@ -219,7 +219,19 @@ function loadTasks() {
 }
 
 function getRandomColor() {
-  const colors = ["#CCFF7E", "#FCC419", "#FF5656", "#FFEA00"];
+  const colors = "#fbbc04", // Yellow
+  "#f28b82", // Red
+  "#fbbc04", // Orange
+  "#fff475", // Mustard
+  "#ccff90", // Light Green
+  "#a7ffeb", // Teal
+  "#cbf0f8", // Light Blue
+  "#aecbfa", // Blue
+  "#d7aefb", // Purple
+  "#fdcfe8", // Pink
+  "#e6c9a8", // Light Brown
+  "#e8eaed", // Gray
+];
   const randomIndex = Math.floor(Math.random() * colors.length);
   return colors[randomIndex];
 }
