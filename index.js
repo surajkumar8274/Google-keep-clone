@@ -219,7 +219,7 @@ function loadTasks() {
 }
 
 function getRandomColor() {
-  const colors = "#fbbc04", // Yellow
+  const colors = ["#fbbc04", // Yellow
   "#f28b82", // Red
   "#fbbc04", // Orange
   "#fff475", // Mustard
